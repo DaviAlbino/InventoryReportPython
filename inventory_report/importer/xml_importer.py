@@ -7,7 +7,7 @@ class XmlImporter(Importer):
     @classmethod
     def import_data(cls, pathFile: str):
         if not pathFile.endswith(".xml"):
-            raise ValueError("Arquivo Inválido")
+            raise ValueError("Arquivo inválido")
 
         try:
             with open(pathFile) as path:

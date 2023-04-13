@@ -2,4 +2,4 @@ class Importer:
     @classmethod
     @staticmethod
     def import_data(cls, pathFile):
-        raise ValueError("Arquivo Inválido")
+        raise ValueError("Arquivo inválido")

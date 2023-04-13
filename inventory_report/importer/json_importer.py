@@ -6,7 +6,7 @@ class JsonImporter(Importer):
     @classmethod
     def import_data(cls, pathFile: str):
         if not pathFile.endswith(".json"):
-            raise ValueError("Arquivo Inválido")
+            raise ValueError("Arquivo inválido")
 
         try:
             with open(pathFile) as path:
